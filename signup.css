@@ -1,0 +1,32 @@
+textarea{
+    width: 100%
+}
+            
+h1{
+    text-align: center;
+}
+            
+#head2{
+    font-weight: bold
+}
+
+#inpcont{
+    margin-top: 5px;
+    border-width:light;
+    width:100%
+}
+
+#numbering{
+    font-weight: bold;
+    display:inline-block;
+    background:aqua;
+    border-radius:100%;
+    padding:8px 15px 8px 14px;
+}
+
+form{
+    width: 500px;
+    margin: 10px auto;
+    padding: 30px;
+    background-color:#f7ffff
+}

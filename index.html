@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>
+            FORM ĐĂNG KÝ DỰ THI
+        </title>
+
+        <link rel="stylesheet" href="signup.css" type="text/css">
+    </head>
+    <body>
+
+        <div id="formcard">
+            <form name="inform" action="abc.php" method="post">
+                <h1>
+                    ĐĂNG KÝ THỰC TẬP</span>
+                </h1>
+                <span id="numbering">
+                    1
+                </span>
+                <span id="head2"> 
+                    Điền thông tin cơ bản:<br>
+                </span>
+                <span>
+                    Name:<br>
+                </span>
+                <input id="inpcont" type="text" name="hovaten" placeholder="Họ và tên">
+                <span>
+                    <br><br> Email:<br>
+                </span>
+                <input id="inpcont" type="text" name="email" placeholder="Nhập email của bạn">
+                <span>
+                    <br><br>Password:<br>
+                </span>
+                <input id="inpcont" type="password" name="matkhau" placeholder="Nhập mật khẩu của bạn">
+                <span>
+                    <br><br>Age:<br>
+                </span>
+                <input type="radio" name="age" value="ud18">
+                <span>
+                    Dưới 18 tuổi<br>
+                </span>
+                <input type="radio" name="age" value="eov18">
+                <span>
+                    Lớn hơn hoặc bằng 18 tuổi<br><br>
+                </span>
+                <span id="numbering">
+                    2
+                </span>
+                <span id="head2">
+                    Thông tin cá nhân:<br>
+                </span>
+                <span>
+                    Tiểu sử:<br>
+                </span>
+                <textarea name="bio" cols="30" rows="10" placeholder="Nhập tiểu sử của bạn"></textarea>
+                <span>
+                    <br>
+                    Vị trí công việc<br>
+                </span>
+                <select name="CHOICE">
+                    <optgroup label="WEB">
+                        <option value="fed">
+                            Front-end DEV
+                        </option>
+
+                        <option value="wdes">
+                            Web design
+                        </option>
+                    </optgroup>
+                    <optgroup label="MOBILE">
+                        <option value="and">
+                            Android
+                        </option>
+                        <option value="iOS">
+                            iOS
+                        </option>
+                    </optgroup>
+                    <option value="oth">
+                        KHÁC
+                    </option>
+                </select>
+                <span>
+                    <br><br>Sở thích của bạn:<br>
+                </span>
+                <input type="checkbox" name="interest" value="dev">Development<br>
+                <input type="checkbox" name="interest" value="des">Design<br>
+                <input type="checkbox" name="interest" value="business">Business<br>
+                <br>
+                <input style="width: 100%;border-radius:45px; height:30px" type="submit" name="submbt" value="ĐĂNG KÝ">
+            </form>
+        </div>
+    </body>
+</html>
